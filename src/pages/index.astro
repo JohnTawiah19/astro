@@ -1,6 +1,7 @@
 ---
 // Component Imports
 import Tour from '../components/Tour.astro';
+import HelloWorld from '../components/HelloWorld.jsx'
 // You can import components from any supported Framework here!
 
 
@@ -14,7 +15,7 @@ let title = 'My Astro Site';
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 <html lang="en">
-<head>
+  <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>{title}</title>
@@ -44,7 +45,8 @@ let title = 'My Astro Site';
 			</div>
 		</header>
 
-		<Tour />
+		<HelloWorld  />		<Tour />
+
 
 		<!--
 
